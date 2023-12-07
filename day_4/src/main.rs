@@ -3,9 +3,6 @@ use std::time::Instant;
 use std::collections::{HashSet, HashMap};
 use regex::Regex;
 
-extern crate queues;
-use queues::{Queue, IsQueue};
-
 fn read_lines(filename: &str) -> Vec<String> {
     read_to_string(filename)
         .unwrap()
